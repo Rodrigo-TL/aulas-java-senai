@@ -26,8 +26,8 @@ public class sistemaCorrigido {
     }
 
     public static void exibirMensagens(String texto, int repeticoes) {
-        //O método estava com as chaves erradas e faltava a palavra static
-        //Coloquei as chaves e coloquei a palavra static para que o main usasse ele
+        //O método estava com as chaves a mais e faltava a palavra static
+        //Retirei uma das chaves e coloquei a palavra static para que o main usasse ele
 
         for (int i = 0; i < repeticoes; i++) {
 
