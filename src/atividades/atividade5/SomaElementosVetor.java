@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import java.util.Arrays;
 
-    public class somaElementosVetor {
+    public class SomaElementosVetor {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

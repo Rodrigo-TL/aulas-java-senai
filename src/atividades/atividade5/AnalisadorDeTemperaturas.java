@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import java.util.Arrays;
 
-public class analisadorDeTemperaturas {
+public class AnalisadorDeTemperaturas {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
