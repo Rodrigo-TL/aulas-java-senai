@@ -2,7 +2,7 @@ package Aulas;
 
 import java.util.Scanner;
 
-public class segundaAula {
+public class SegundaAula {
 
     public static void main(String[] args) {
 
