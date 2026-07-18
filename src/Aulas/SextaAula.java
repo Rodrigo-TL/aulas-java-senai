@@ -8,12 +8,8 @@ public class SextaAula {
         System.out.println ();
 
 
-        }
 
-        public String nome;
-        public int anoNascimento;
-        public char sexualidade;
-        public String cor;
+
 
 
     }
