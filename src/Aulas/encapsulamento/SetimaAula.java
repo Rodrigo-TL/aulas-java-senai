@@ -1,4 +1,4 @@
-package Aulas.encapsulamento.banco.principal;
+package Aulas.encapsulamento;
 
 public class SetimaAula {
 }
