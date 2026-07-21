@@ -6,9 +6,7 @@ public class ContaBancaria {
     private int numeroDaConta;
     private double saldo;
 
-
     private static int contadorContas = 1000;
-
 
     public ContaBancaria(String titular) {
         this.titular = titular;
@@ -16,7 +14,6 @@ public class ContaBancaria {
         contadorContas++;
         this.saldo = 0.0;
     }
-
 
     public String getTitular() {
         return titular;
@@ -26,12 +23,9 @@ public class ContaBancaria {
         return numeroDaConta;
     }
 
-
     public double getSaldo() {
         return saldo;
     }
-
-
 
     public void depositar(double valor){
         if (valor > 0){
@@ -42,7 +36,6 @@ public class ContaBancaria {
         }
     }
 
-
     public void sacar(double valor){
 
         if (valor > 0 && this.saldo >= valor){
@@ -52,7 +45,6 @@ public class ContaBancaria {
             System.out.println("Erro: Saldo insuficiente ou valor inválido");
         }
     }
-
 
     private String acessarTodosOsDados(){
         return this.titular;
